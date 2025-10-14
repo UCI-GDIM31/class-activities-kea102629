@@ -18,7 +18,7 @@ The input would be a float and there would be no output.
 
 With your table mates, come up with a metaphor to explain the relationship between classes and Components with a metaphor. Also describe how methods and member variables factor into that metaphor.  Remember that classes are templates that can become Components; member variables are traits of each class; and methods are things the class can do.
 
-If we imagine a component as a computer the classes are features like the keyboard or mouse the methods are how the keyboards and mouses work for exmaple what happens when you click a key or right click and finally variables are the actual information put into methods or in classes. For example if me imagine pressing the j key on your keyboard the method would be to put the key pressed into this text file and the variable to put into the method would be j.
+If we imagine a game as a computer the components are features like the keyboard and mouse, the classes are things every keyboard and mouse does/the general features of a keyboard and mouse, the methods are how the keyboards and mouses work for exmaple what happens when you click a key or right click and finally variables are the actual information put into methods or in classes. For example if we imagine pressing the j key on your keyboard the method would be to put the key pressed into this text file and the variable to put into the method would be j.
 
 Why do you think the balls get extremely bright, especially in the Scene, if they bounce too many times?
 The colour keeps multplying exponetially.
