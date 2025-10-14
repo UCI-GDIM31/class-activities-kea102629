@@ -11,10 +11,17 @@ _bounce is an int beacuse the number of bounces is a whole number. You cant have
 3. The error you got after Step X of Part 2 told you something useful about why that line of code was broken- what was it?
 The error told me that I was missing a semicolon at the end of the line.
 ### W3
-Tables 14-19
+Tables 17
 You’re building a horror game, and you’re writing a method named SetLightDimness that makes the room’s lights brighter or darker based on the player’s current sanity level. The player’s sanity level is a number that goes from 0% - 100%. The method changes the light itself, so it doesn’t need any output.
 
 The input would be a float and there would be no output.
+
+With your table mates, come up with a metaphor to explain the relationship between classes and Components with a metaphor. Also describe how methods and member variables factor into that metaphor.  Remember that classes are templates that can become Components; member variables are traits of each class; and methods are things the class can do.
+
+If we imagine a component as a computer the classes are features like the keyboard or mouse the methods are how the keyboards and mouses work for exmaple what happens when you click a key or right click and finally variables are the actual information put into methods or in classes. For example if me imagine pressing the j key on your keyboard the method would be to put the key pressed into this text file and the variable to put into the method would be j.
+
+Why do you think the balls get extremely bright, especially in the Scene, if they bounce too many times?
+The colour keeps multplying exponetially.
 
 ## Open-Source Assets
 ### W1
