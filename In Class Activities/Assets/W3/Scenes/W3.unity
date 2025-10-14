@@ -417,8 +417,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 332469172}
   _rigidbody: {fileID: 332469170}
-  _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedMultiplier: 1.2
+  _speedThreshold: 1.5
 --- !u!50 &332469170
 Rigidbody2D:
   serializedVersion: 5
@@ -1107,8 +1107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 773041401}
   _rigidbody: {fileID: 773041399}
-  _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedMultiplier: 1.2
+  _speedThreshold: 1.5
 --- !u!50 &773041399
 Rigidbody2D:
   serializedVersion: 5
@@ -1517,8 +1517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1188549726}
   _rigidbody: {fileID: 1188549724}
-  _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedMultiplier: 1.2
+  _speedThreshold: 1.5
 --- !u!50 &1188549724
 Rigidbody2D:
   serializedVersion: 5
