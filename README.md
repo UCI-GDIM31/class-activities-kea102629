@@ -38,7 +38,7 @@ Table #17
 
 What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?
 
-We added Rigidbodies to the cat and the soccer ball and cliked Is Trigger for the goal.
+We added Rigidbodies to the cat and the soccer ball and cliked Is Trigger for the goal. Becausee we need the cat and the ball to physicall collide with other objects while for the goal we need to check if the ball entered it. 
 
 IF your game did not work perfectly the first time you tested it, talk about what you had to fix.
 
