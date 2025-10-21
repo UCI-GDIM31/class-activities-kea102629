@@ -22,6 +22,29 @@ If we imagine a game as a computer the components are features like the keyboard
 
 Why do you think the balls get extremely bright, especially in the Scene, if they bounce too many times?
 The colour keeps multplying exponetially.
+### W4
+Table 17:
+Do your best to describe the following lines of code:
+
+    line 17: private bool _isGrounded = true;
+    This sets a member variable of type boolean to the value true 
+
+    line 28: if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
+    This line calls the method GetKeyDown() with the parameter KeyCode.Space to see if the space key was clicked and it checks if the isGrounded member variable is true.
+
+    line 32:_isGrounded = false;
+    This line changes the _isGrounded member variable to false
+Table #17
+
+What solution did you come up with for the collider activity, and why? Specifically- which objects did you add Rigidbodies to, and which object(s) did you check Is Trigger on?
+
+We added Rigidbodies to the cat and the soccer ball and cliked Is Trigger for the goal.
+
+IF your game did not work perfectly the first time you tested it, talk about what you had to fix.
+
+I also clicked Istrigger for the ball and it fell through the floor. To fix it i unchecked Is Trigger. The size of my collider for the cat was also too big so it started floating. I changed the size and center of the collider.
+
+
 
 ## Open-Source Assets
 ### W1
