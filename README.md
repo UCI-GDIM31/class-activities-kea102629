@@ -44,6 +44,19 @@ IF your game did not work perfectly the first time you tested it, talk about wha
 
 I also clicked Istrigger for the ball and it fell through the floor. To fix it i unchecked Is Trigger. The size of my collider for the cat was also too big so it started floating. I changed the size and center of the collider.
 
+### W5
+Is vector ever overkill?
+the answer: it is bascially never overkill.
+
+Plan for deer W5:
+What member variable(s) does this class need?
+What method(s) does this class need? Should it be something that Unity provides (like Start(), Update(), or a collision method), or one you write?
+What should the method(s) do?
+1. make the class with mono behaviour
+2. make a member varible for the transform of the object and make it SerializeField so we can change it in unity
+3. make a memebr variable for the NavMeshAgent of the current object
+4. make a Start method so that we can initialize the NavMeshAgent with the curent gameobjects Mesh
+5. in the start method change the destination of the navmesh to the position of the transform. 
 
 
 ## Open-Source Assets

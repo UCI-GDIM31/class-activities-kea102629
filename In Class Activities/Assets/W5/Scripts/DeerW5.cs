@@ -1,6 +1,24 @@
 using UnityEngine;
 using UnityEngine.AI;
 
+public class DeerW5 : MonoBehaviour
+{
+    [SerializeField] private Transform Target;
+    private NavMeshAgent navmesh;
+
+
+
+
+    private void Start()
+    {
+        navmesh = gameObject.GetComponent<NavMeshAgent>();
+        navmesh.destination = Target.position;
+
+
+        
+    }
+    
+}
 // Write your DeerW5 class in here :)
 // Hint: if you don't remember what a class is supposed to look like,
 //      maybe check out CatW5...
