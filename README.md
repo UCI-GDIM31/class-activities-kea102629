@@ -58,6 +58,13 @@ What should the method(s) do?
 4. make a Start method so that we can initialize the NavMeshAgent with the curent gameobjects Mesh
 5. in the start method change the destination of the navmesh to the position of the transform. 
 
+### W6
+UnityEngine: https://docs.google.com/document/d/1v9abHr0z2I_ynx3ik8Slda9mncvm8eCeKY5KIBUfL-c/edit?tab=t.0
+
+Notes for BatW6 
+Create a monobehaviour script for bat 
+create a serilzefield float called speed
+Create stop and start bat methods
 
 ## Open-Source Assets
 ### W1
