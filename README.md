@@ -66,6 +66,11 @@ Create a monobehaviour script for bat
 create a serilzefield float called speed
 Create stop and start bat methods
 
+### W7  
+Gameplay: https://docs.google.com/document/d/1FI6_2kwBTTaRBxAmNkWfBAGIedIvuOI0K7P5KUZhsA8/edit?usp=sharing 
+
+what was wrong with the code in Step 2?
+it was adding the Vector 3 to the current posititon but when the muskrat rotates you want to move forward to where the muskrat is facing. When you click forward it would only move forward relative to world space but translate would do it relative to local space
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
